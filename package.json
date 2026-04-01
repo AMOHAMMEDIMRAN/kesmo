@@ -1,5 +1,5 @@
 {
-  "name": "kesmo",
+  "name": "kasmo",
   "version": "1.0.0",
   "description": "AI Code Analysis Engine - Production-ready CLI for intelligent code analysis",
   "main": "dist/bin/kesmo.js",
@@ -22,7 +22,7 @@
   ],
   "author": {
     "name": "Mohammed Imran",
-    "email": "your-email@example.com",
+    "email": "amohammedimran.11@gmail.com",
     "url": "https://github.com/AMOHAMMEDIMRAN"
   },
   "license": "ISC",
