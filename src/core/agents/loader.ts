@@ -41,7 +41,8 @@ export function loadPlugins(): Plugin[] {
     try {
       const filePath = path.join(dir, file);
       const raw = fs.readFileSync(filePath, "utf-8");
-      const parsed = JSON.parse(raw) as Partial<Plugin>;
+      const normalized = raw.replace(/^\uFEFF/, "");
+      const parsed = JSON.parse(normalized) as Partial<Plugin>;
 
       if (!parsed.name || !parsed.prompt) {
         continue;

@@ -1,6 +1,6 @@
-{
-  "name": "Internationalization Check",
-  "category": "i18n",
-  "description": "Check internationalization and localization readiness",
-  "prompt": "Check internationalization readiness:\n\n1. Hardcoded strings detection\n2. Date/time formatting issues\n3. Number/currency formatting\n4. RTL support considerations\n5. Character encoding issues\n6. Locale-sensitive comparisons\n7. Translation key organization\n\nSuggest i18n framework integration and provide extraction patterns."
+﻿{
+    "name":  "Internationalization Check",
+    "category":  "i18n",
+    "description":  "Internationalization and localization readiness checks",
+    "prompt":  "Check for hardcoded strings, locale-sensitive formatting, pluralization, RTL handling, and translation key hygiene.\nIdentify extraction gaps and fallback risks.\nSuggest minimal changes to make UI locale-ready."
 }

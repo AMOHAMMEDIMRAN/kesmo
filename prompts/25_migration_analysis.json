@@ -1,6 +1,6 @@
-{
-  "name": "Migration Path Analysis",
-  "category": "architecture",
-  "description": "Analyze and plan code migration paths",
-  "prompt": "Analyze migration requirements:\n\n1. Legacy code identification\n2. Deprecated API usage\n3. Framework upgrade paths\n4. Breaking change impact\n5. Data migration needs\n6. Incremental migration strategies\n7. Rollback considerations\n8. Testing requirements for migration\n\nProvide step-by-step migration plan with risk assessment."
+﻿{
+    "name":  "Migration Path Analysis",
+    "category":  "architecture",
+    "description":  "Migration planning with risk and rollback awareness",
+    "prompt":  "Assess migration scope, blockers, compatibility gaps, and rollout risk.\nCreate phased plan with checkpoints, validation, and rollback strategy.\nPrioritize low-risk incremental moves over big-bang rewrites."
 }

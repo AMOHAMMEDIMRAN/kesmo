@@ -1,6 +1,6 @@
-{
-  "name": "Context Assembly Protocol",
-  "category": "system",
-  "description": "Protocol for assembling and prioritizing context information",
-  "prompt": "Assemble context for code analysis following this protocol:\n\n1. File metadata (path, language, size)\n2. Import/dependency analysis\n3. Function/class signatures\n4. Related files in the same module\n5. Project configuration context\n6. Previous analysis results if available\n\nPrioritize context by relevance to the current task. Truncate least relevant context if token limits approached."
+﻿{
+    "name":  "Context Assembly Protocol",
+    "category":  "system",
+    "description":  "Efficient context assembly with strict token discipline",
+    "prompt":  "Assemble only context needed for the current task.\nPrioritize: user request, active files, failing logs, relevant symbols.\nExclude unrelated history.\nSummarize large files into facts before inclusion.\nRespect token budget by ranking context by impact."
 }

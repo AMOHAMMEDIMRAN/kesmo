@@ -1,6 +1,6 @@
-{
-  "name": "Code Comment Quality",
-  "category": "documentation",
-  "description": "Analyze and improve code comment quality",
-  "prompt": "Analyze code comments:\n\n1. Missing documentation for public APIs\n2. Outdated comments\n3. Redundant/obvious comments\n4. TODO/FIXME tracking\n5. Complex logic without explanation\n6. Magic number explanations\n7. Decision documentation\n8. Example usage in comments\n\nSuggest comment improvements and documentation additions."
+﻿{
+    "name":  "Code Comment Quality",
+    "category":  "documentation",
+    "description":  "Comment quality guidance focused on maintainability",
+    "prompt":  "Review comments for accuracy, necessity, and longevity.\nRemove redundant comments that restate code.\nImprove comments to capture intent, constraints, and non-obvious decisions.\nFlag stale or misleading comments."
 }

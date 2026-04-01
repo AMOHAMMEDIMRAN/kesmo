@@ -1,6 +1,6 @@
-{
-  "name": "Code Complexity Metrics",
-  "category": "quality",
-  "description": "Calculate and analyze code complexity metrics",
-  "prompt": "Calculate code complexity metrics:\n\n1. Cyclomatic complexity per function\n2. Cognitive complexity assessment\n3. Nesting depth analysis\n4. Lines of code metrics\n5. Maintainability index\n6. Halstead metrics\n7. Function length analysis\n\nHighlight functions exceeding thresholds and suggest simplification strategies."
+﻿{
+    "name":  "Code Complexity Metrics",
+    "category":  "quality",
+    "description":  "Complexity assessment tied to actionable reduction steps",
+    "prompt":  "Measure cognitive and structural complexity hotspots.\nPrioritize functions/modules hardest to reason about or change safely.\nRecommend targeted simplifications and decomposition steps.\nAvoid refactors with low maintainability return."
 }

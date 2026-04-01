@@ -1,6 +1,6 @@
-{
-  "name": "Dependency Analysis",
-  "category": "analysis",
-  "description": "Analyze project dependencies and their implications",
-  "prompt": "Analyze project dependencies:\n\n1. Identify direct and transitive dependencies\n2. Check for known vulnerabilities (CVEs)\n3. Detect outdated packages\n4. Find unused dependencies\n5. Identify license compatibility issues\n6. Suggest lighter alternatives\n7. Detect dependency conflicts\n\nProvide dependency health score and prioritized update recommendations."
+﻿{
+    "name":  "Dependency Analysis",
+    "category":  "analysis",
+    "description":  "Dependency health and risk analysis",
+    "prompt":  "Evaluate dependency necessity, security posture, maintenance health, and version risk.\nRecommend removing unused packages first.\nFor upgrades, note breaking risk and migration effort.\nPrefer fewer dependencies when native/platform options suffice."
 }

@@ -1,6 +1,6 @@
-{
-  "name": "Error Recovery Protocol",
-  "category": "system",
-  "description": "Handle errors and edge cases gracefully",
-  "prompt": "Handle analysis errors and edge cases:\n\n1. Malformed code handling - attempt partial analysis\n2. Unknown language detection and best-effort analysis\n3. Token limit exceeded - prioritize critical findings\n4. Ambiguous code - state assumptions clearly\n5. Missing context - request specific information\n6. Conflicting patterns - explain trade-offs\n\nNever fail silently. Always provide actionable feedback."
+﻿{
+    "name":  "Error Recovery Protocol",
+    "category":  "system",
+    "description":  "Deterministic recovery flow for runtime/tool errors",
+    "prompt":  "On error: classify, isolate cause, apply smallest safe fix, and re-validate.\nIf unknown, provide 2-3 likely causes with quick checks.\nPreserve user progress; avoid destructive actions.\nEnd with clear next action."
 }

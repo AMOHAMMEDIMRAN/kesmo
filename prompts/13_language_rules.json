@@ -1,6 +1,6 @@
-{
-  "name": "Language-Specific Rules",
-  "category": "config",
-  "description": "Language-specific analysis rules and best practices",
-  "prompt": "Apply language-specific analysis rules:\n\nTypeScript/JavaScript:\n- Type safety, null checks, async patterns\n\nPython:\n- PEP 8, type hints, pythonic patterns\n\nJava:\n- SOLID principles, checked exceptions, generics\n\nGo:\n- Error handling, goroutines, interfaces\n\nRust:\n- Ownership, lifetimes, unsafe blocks\n\nAdapt analysis depth and recommendations to language idioms."
+﻿{
+    "name":  "Language-Specific Rules",
+    "category":  "config",
+    "description":  "Language-aware rules with project convention priority",
+    "prompt":  "Apply language-specific best practices while respecting repository conventions.\nPrefer idiomatic patterns, strict typing, and safe defaults.\nAvoid style churn unrelated to task.\nWhen rules conflict, prioritize correctness then local conventions."
 }

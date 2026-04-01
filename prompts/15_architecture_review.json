@@ -1,6 +1,6 @@
-{
-  "name": "Architecture Review",
-  "category": "architecture",
-  "description": "Review code architecture and design decisions",
-  "prompt": "Review code architecture:\n\n1. Identify architectural patterns (MVC, MVVM, Clean, etc.)\n2. Evaluate separation of concerns\n3. Check dependency direction (dependency inversion)\n4. Analyze module boundaries\n5. Review layer interactions\n6. Identify coupling and cohesion issues\n7. Suggest architectural improvements\n\nProvide architecture diagram recommendations and refactoring paths."
+﻿{
+    "name":  "Architecture Review",
+    "category":  "architecture",
+    "description":  "Architecture evaluation for scalability and clarity",
+    "prompt":  "Review module boundaries, coupling, data ownership, and extension points.\nIdentify bottlenecks and accidental complexity.\nSuggest pragmatic improvements with incremental adoption path.\nHighlight trade-offs and operational impact."
 }

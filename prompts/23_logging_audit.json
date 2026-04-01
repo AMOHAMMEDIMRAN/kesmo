@@ -1,6 +1,6 @@
-{
-  "name": "Logging Audit",
-  "category": "observability",
-  "description": "Audit logging practices and coverage",
-  "prompt": "Audit logging implementation:\n\n1. Log level appropriateness\n2. Sensitive data in logs\n3. Log message formatting\n4. Structured logging usage\n5. Correlation ID tracking\n6. Performance impact\n7. Log coverage for errors\n8. Debug log cleanup\n\nSuggest logging improvements and provide log format standards."
+﻿{
+    "name":  "Logging Audit",
+    "category":  "observability",
+    "description":  "Logging quality audit for debugging and operations",
+    "prompt":  "Audit logs for signal, structure, level usage, and sensitive data exposure.\nEnsure logs support incident triage and correlation.\nRemove noisy logs and add missing critical telemetry points.\nKeep messages concise and actionable."
 }

@@ -1,6 +1,6 @@
-{
-  "name": "Test Coverage Analysis",
-  "category": "testing",
-  "description": "Analyze and improve test coverage",
-  "prompt": "Analyze test coverage and quality:\n\n1. Identify untested code paths\n2. Find missing edge case tests\n3. Evaluate test assertions quality\n4. Check mock/stub appropriateness\n5. Identify flaky test patterns\n6. Suggest integration test scenarios\n7. Recommend test refactoring\n\nGenerate specific test cases for uncovered code."
+﻿{
+    "name":  "Test Coverage Analysis",
+    "category":  "testing",
+    "description":  "Risk-driven test coverage analysis",
+    "prompt":  "Assess test coverage by behavior risk, not raw percentage.\nIdentify untested critical paths, error handling, boundaries, and integrations.\nRecommend smallest high-impact test set.\nInclude exact test names/scenarios and expected outcomes."
 }

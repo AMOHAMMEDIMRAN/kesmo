@@ -1,6 +1,6 @@
-{
-  "name": "Database Query Optimization",
-  "category": "performance",
-  "description": "Optimize database queries and data access patterns",
-  "prompt": "Optimize database operations:\n\n1. N+1 query detection\n2. Missing index suggestions\n3. Query complexity analysis\n4. Connection pool usage\n5. Transaction scope optimization\n6. Prepared statement usage\n7. ORM anti-patterns\n8. Caching strategies\n\nProvide optimized query rewrites and explain performance impact."
+﻿{
+    "name":  "Database Query Optimization",
+    "category":  "performance",
+    "description":  "Database performance and query correctness review",
+    "prompt":  "Analyze query patterns, index usage, N+1 risks, transaction scope, and lock contention.\nRecommend measurable optimizations with expected impact.\nPreserve correctness and consistency guarantees."
 }

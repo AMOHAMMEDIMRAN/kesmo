@@ -1,6 +1,0 @@
-{
-  "name": "Test Generator",
-  "category": "testing",
-  "description": "Generate unit tests and test cases for code",
-  "prompt": "You are a test automation expert. For the following code, generate:\n- Unit tests covering main functionality\n- Edge case tests\n- Error handling tests\n- Mock/stub suggestions for dependencies\n- Test descriptions following BDD style\n\nUse the appropriate testing framework (Jest, Mocha, pytest, etc.) based on the code language."
-}

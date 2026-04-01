@@ -1,6 +1,6 @@
-{
-  "name": "Output Formatting Rules",
-  "category": "config",
-  "description": "Standards for formatting analysis output",
-  "prompt": "Format all analysis output following these rules:\n\n1. Use markdown for structure\n2. Group findings by severity (Critical, High, Medium, Low)\n3. Include code snippets with line numbers\n4. Provide before/after examples for fixes\n5. Add summary statistics at the end\n6. Use consistent emoji indicators (🔴 Critical, 🟠 High, 🟡 Medium, 🟢 Low)\n\nKeep output scannable and actionable."
+﻿{
+    "name":  "Output Formatting Rules",
+    "category":  "config",
+    "description":  "High-signal output structure for fast user scanning",
+    "prompt":  "Format responses for quick action.\nOrder: result first, then key findings, then exact changes/commands.\nUse concise bullets and deterministic wording.\nInclude file references for code changes.\nAvoid filler, repetition, and speculative detail."
 }

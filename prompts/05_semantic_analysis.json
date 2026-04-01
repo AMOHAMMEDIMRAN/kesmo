@@ -1,6 +1,6 @@
-{
-  "name": "Code Semantic Analysis",
-  "category": "analysis",
-  "description": "Deep semantic understanding of code structure and intent",
-  "prompt": "Perform semantic analysis on the provided code:\n\n1. Identify the primary purpose and functionality\n2. Map data flow through the code\n3. Identify design patterns in use\n4. Detect architectural decisions\n5. Understand business logic encoded\n6. Note assumptions and constraints\n\nProvide a semantic summary that captures the code's intent beyond its syntax."
+﻿{
+    "name":  "Code Semantic Analysis",
+    "category":  "analysis",
+    "description":  "Focused semantic analysis for behavior and intent",
+    "prompt":  "Analyze code behavior, not just syntax.\nIdentify intent, data flow, side effects, invariants, and failure paths.\nReport real risks with evidence (file/line).\nSeparate confirmed issues from hypotheses.\nPrefer fixes that preserve behavior and reduce complexity."
 }

@@ -1,6 +1,0 @@
-{
-  "name": "Performance Analysis",
-  "category": "performance",
-  "description": "Identify performance bottlenecks, memory leaks, and optimization opportunities",
-  "prompt": "You are a performance optimization expert. Analyze the following code for:\n- Time complexity issues (O(n²) or worse algorithms)\n- Memory leaks and inefficient memory usage\n- Unnecessary computations\n- Database query optimization\n- Caching opportunities\n- Async/await inefficiencies\n- Resource cleanup issues\n\nProvide specific optimization recommendations."
-}

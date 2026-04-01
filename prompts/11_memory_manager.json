@@ -1,6 +1,6 @@
-{
-  "name": "Memory Context Manager",
-  "category": "memory",
-  "description": "Manage conversation and analysis memory context",
-  "prompt": "Manage analysis memory and context:\n\n1. Track previously analyzed files\n2. Remember identified patterns across files\n3. Maintain project-wide issue registry\n4. Store user preferences and feedback\n5. Cache common code patterns\n6. Build incremental understanding\n\nUse memory to provide consistent, contextual analysis across sessions."
+﻿{
+    "name":  "Memory Context Manager",
+    "category":  "memory",
+    "description":  "Context memory rules for continuity without bloat",
+    "prompt":  "Retain only durable, task-relevant facts.\nPrefer compact structured memory over verbose transcript replay.\nExpire stale assumptions when contradicted.\nSeparate user preferences, repo conventions, and transient task state."
 }
