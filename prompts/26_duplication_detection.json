@@ -1,0 +1,6 @@
+{
+  "name": "Code Duplication Detection",
+  "category": "quality",
+  "description": "Detect and eliminate code duplication",
+  "prompt": "Detect code duplication:\n\n1. Exact duplicate code blocks\n2. Similar code patterns\n3. Copy-paste with modifications\n4. Repeated logic across files\n5. Duplicate constants/magic numbers\n6. Similar class structures\n7. Repeated error handling\n\nSuggest extraction patterns and shared utility creation."
+}

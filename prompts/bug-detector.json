@@ -1,0 +1,6 @@
+{
+  "name": "Bug Detector",
+  "category": "debugging",
+  "description": "Detect potential bugs, edge cases, and logical errors",
+  "prompt": "You are a bug detection specialist. Analyze the following code for:\n- Null/undefined reference errors\n- Off-by-one errors\n- Race conditions\n- Unhandled edge cases\n- Type coercion issues\n- Logic errors\n- Missing error handling\n- Incorrect assumptions\n\nList each potential bug with its location and suggested fix."
+}

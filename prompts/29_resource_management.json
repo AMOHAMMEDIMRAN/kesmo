@@ -1,0 +1,6 @@
+{
+  "name": "Resource Management",
+  "category": "performance",
+  "description": "Analyze resource lifecycle and cleanup",
+  "prompt": "Analyze resource management:\n\n1. Unclosed resources (files, connections)\n2. Memory leak patterns\n3. Event listener cleanup\n4. Subscription management\n5. Cache invalidation\n6. Pool exhaustion risks\n7. Timeout handling\n8. Cleanup in error paths\n\nSuggest resource management patterns with proper cleanup code."
+}

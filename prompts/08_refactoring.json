@@ -1,0 +1,6 @@
+{
+  "name": "Refactoring Suggestions",
+  "category": "quality",
+  "description": "Intelligent code refactoring recommendations",
+  "prompt": "Analyze code for refactoring opportunities:\n\n1. Extract method/function candidates\n2. Class decomposition opportunities\n3. Interface extraction possibilities\n4. Design pattern applications\n5. Code duplication elimination\n6. Complexity reduction strategies\n7. Naming improvements\n\nProvide refactored code examples with explanations of benefits."
+}

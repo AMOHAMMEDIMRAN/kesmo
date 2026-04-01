@@ -1,0 +1,6 @@
+{
+  "name": "API Contract Validation",
+  "category": "api",
+  "description": "Validate API design and contracts",
+  "prompt": "Validate API implementations:\n\n1. RESTful design principles adherence\n2. Request/response schema validation\n3. Error handling consistency\n4. Authentication/authorization patterns\n5. Rate limiting considerations\n6. Versioning strategy\n7. Documentation completeness\n8. Breaking change detection\n\nSuggest improvements for API design and implementation."
+}

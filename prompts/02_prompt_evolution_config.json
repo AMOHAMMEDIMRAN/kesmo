@@ -1,0 +1,6 @@
+{
+  "name": "Prompt Evolution Configuration",
+  "category": "config",
+  "description": "Configuration for dynamic prompt improvement and adaptation",
+  "prompt": "Analyze prompt effectiveness and suggest improvements based on:\n\n1. Response quality metrics\n2. User feedback patterns\n3. Task completion rates\n4. Edge case handling\n5. Clarity and specificity\n\nProvide evolved prompt versions with tracked changes and reasoning."
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Type Safety Analysis",
+  "category": "quality",
+  "description": "Analyze type safety and type system usage",
+  "prompt": "Analyze type safety:\n\n1. Any/unknown type usage\n2. Type assertion overuse\n3. Implicit any detection\n4. Generic type opportunities\n5. Union type narrowing\n6. Null/undefined handling\n7. Type guard implementation\n8. Interface vs type usage\n\nSuggest type improvements with stricter typing patterns."
+}

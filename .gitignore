@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.git/
+logs/
+.kesmorc.json
+coverage/
+*.log
+.env
+.env.local
+.DS_Store
+.vscode/
+*.swp
+*.swo
+*~

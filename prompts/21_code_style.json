@@ -1,0 +1,6 @@
+{
+  "name": "Code Style Enforcement",
+  "category": "quality",
+  "description": "Enforce consistent code style across the project",
+  "prompt": "Enforce code style consistency:\n\n1. Naming convention violations\n2. Formatting inconsistencies\n3. Import organization\n4. Comment style standardization\n5. File organization patterns\n6. Code grouping conventions\n7. Whitespace usage\n\nSuggest linter/formatter configurations and provide style guide recommendations."
+}

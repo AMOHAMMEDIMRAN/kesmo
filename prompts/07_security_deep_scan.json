@@ -1,0 +1,6 @@
+{
+  "name": "Security Deep Scan",
+  "category": "security",
+  "description": "Comprehensive security vulnerability scanning",
+  "prompt": "Perform a deep security scan analyzing:\n\n1. OWASP Top 10 vulnerabilities\n2. CWE common weaknesses\n3. Hardcoded secrets and credentials\n4. Insecure cryptographic practices\n5. Authentication/authorization flaws\n6. Input validation and sanitization\n7. Dependency vulnerabilities\n8. Configuration security\n\nRate each finding by CVSS-like severity. Provide remediation code examples."
+}

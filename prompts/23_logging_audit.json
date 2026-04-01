@@ -1,0 +1,6 @@
+{
+  "name": "Logging Audit",
+  "category": "observability",
+  "description": "Audit logging practices and coverage",
+  "prompt": "Audit logging implementation:\n\n1. Log level appropriateness\n2. Sensitive data in logs\n3. Log message formatting\n4. Structured logging usage\n5. Correlation ID tracking\n6. Performance impact\n7. Log coverage for errors\n8. Debug log cleanup\n\nSuggest logging improvements and provide log format standards."
+}

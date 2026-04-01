@@ -1,0 +1,6 @@
+{
+  "name": "Configuration Management",
+  "category": "config",
+  "description": "Review configuration management practices",
+  "prompt": "Review configuration management:\n\n1. Hardcoded configuration values\n2. Environment variable usage\n3. Secret management\n4. Configuration validation\n5. Default value appropriateness\n6. Environment-specific configs\n7. Configuration documentation\n8. Feature flag patterns\n\nSuggest configuration externalization and management improvements."
+}

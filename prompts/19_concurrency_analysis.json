@@ -1,0 +1,6 @@
+{
+  "name": "Concurrency Analysis",
+  "category": "performance",
+  "description": "Analyze concurrent code for issues and improvements",
+  "prompt": "Analyze concurrent code:\n\n1. Race condition detection\n2. Deadlock potential\n3. Thread safety issues\n4. Lock contention analysis\n5. Async/await correctness\n6. Promise handling patterns\n7. Worker thread usage\n8. Shared state management\n\nSuggest concurrency patterns and provide thread-safe alternatives."
+}

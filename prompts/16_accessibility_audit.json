@@ -1,0 +1,6 @@
+{
+  "name": "Accessibility Audit",
+  "category": "accessibility",
+  "description": "Audit code for accessibility compliance",
+  "prompt": "Audit for accessibility (for frontend code):\n\n1. WCAG 2.1 compliance check\n2. ARIA attributes usage\n3. Keyboard navigation support\n4. Screen reader compatibility\n5. Color contrast issues\n6. Focus management\n7. Semantic HTML usage\n\nProvide specific fixes with code examples for accessibility issues."
+}

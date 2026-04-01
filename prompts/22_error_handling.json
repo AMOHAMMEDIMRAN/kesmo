@@ -1,0 +1,6 @@
+{
+  "name": "Error Handling Review",
+  "category": "quality",
+  "description": "Review error handling patterns and completeness",
+  "prompt": "Review error handling:\n\n1. Uncaught exception paths\n2. Error message quality\n3. Error type specificity\n4. Recovery strategies\n5. Logging completeness\n6. User-facing error messages\n7. Error propagation patterns\n8. Retry logic appropriateness\n\nSuggest error handling improvements with code examples."
+}

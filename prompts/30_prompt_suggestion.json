@@ -1,0 +1,6 @@
+{
+  "name": "Prompt Improvement Suggestions",
+  "category": "meta",
+  "description": "Suggest improvements to analysis prompts themselves",
+  "prompt": "Analyze prompt effectiveness and suggest improvements:\n\n1. Clarity and specificity of instructions\n2. Coverage of edge cases\n3. Output format consistency\n4. Missing analysis areas\n5. Redundancy across prompts\n6. Language/framework coverage\n7. Actionability of suggestions\n8. Priority/severity calibration\n\nProvide improved prompt versions with reasoning."
+}
