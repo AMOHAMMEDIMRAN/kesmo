@@ -1,19 +1,33 @@
 import fs from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
 import type { Plugin } from "../../types.js";
 
 const PROMPTS_DIR = "prompts";
 
+function getBundledPromptsPath(): string {
+  const currentFile = fileURLToPath(import.meta.url);
+  const currentDir = path.dirname(currentFile);
+  return path.resolve(currentDir, "../../../../", PROMPTS_DIR);
+}
+
 export function getPromptsPath(): string {
-  return path.join(process.cwd(), PROMPTS_DIR);
+  const cwdPrompts = path.join(process.cwd(), PROMPTS_DIR);
+  if (fs.existsSync(cwdPrompts)) {
+    return cwdPrompts;
+  }
+
+  return getBundledPromptsPath();
 }
 
 export function loadPlugins(): Plugin[] {
   const dir = getPromptsPath();
 
   if (!fs.existsSync(dir)) {
+    const cwdPrompts = path.join(process.cwd(), PROMPTS_DIR);
+    const bundledPrompts = getBundledPromptsPath();
     throw new Error(
-      `Prompts directory not found. Please create a "${PROMPTS_DIR}" folder with agent JSON files.`,
+      `Prompts directory not found. Looked in "${cwdPrompts}" and "${bundledPrompts}".`,
     );
   }
 
